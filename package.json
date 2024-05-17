@@ -12,5 +12,6 @@
     "node"
   ],
   "author": "Víctor Noé Becerra Hernández <arbitrocabal@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }

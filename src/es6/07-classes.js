@@ -13,3 +13,22 @@ class user {
 const user1 = new user('Órale compa!!!')
 
 user1.getSurrent()
+
+
+class agent {
+    constructor (name, age){
+        this.name = name,
+        this.age = age
+    }
+
+    getHello(){
+        return `Hello! my name is ${this.name}`
+    }
+
+    get uAge(){
+        return this.age
+    }
+    set uAge(n){
+        this.age = n;
+    }
+}
